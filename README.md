@@ -8,9 +8,7 @@ Run powershell script. Optionaly redirect stdout to a file.
 
 ## Sample Output
 
-Windows 7 Browsing http://example.com:8080 which is hosting [adobe_flash_hacking_team_uaf](https://www.rapid7.com/db/modules/exploit/multi/browser/adobe_flash_hacking_team_uaf) that phones home on port 80.
-
-Followed with the attacker: credential dumping, installing persistence, launching a new shell, listing drivers, and encrypting a file.
+Windows 7 Browsing http://example.com:8080 which is hosting [adobe_flash_hacking_team_uaf](https://www.rapid7.com/db/modules/exploit/multi/browser/adobe_flash_hacking_team_uaf) that phones home on port 80. Followed with the attacker doing some scripted actions.
 
 ```
 alert='Process Creation',message=[C:\Windows\Explorer.EXE started "C:\Program Files (x86)\Internet Explorer\iexplore.exe"  (1868)]
